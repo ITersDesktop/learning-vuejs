@@ -30,7 +30,10 @@ export default {
     return {
       activeComp: 'food-kinds',
       foods: [
-        { name: 'Pizza', imgUrl: 'src/assets/img/foods/pizza.svg' },
+        { name: 'Pizza', 
+          imgUrl: 'src/assets/img/foods/pizza.svg' , 
+          isFavourte: true
+        },
         { name: 'Apple', imgUrl: 'src/assets/img/foods/apple.svg' },
         { name: 'Cake', imgUrl: 'src/assets/img/foods/cake.svg' },
         { name: 'Fish', imgUrl: 'src/assets/img/foods/fish.svg' },

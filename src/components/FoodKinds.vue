@@ -3,7 +3,8 @@
     <p><mark>In this application, food data is provided in "App.vue", and injected in the "FoodKinds.vue" component so that it can be shown here:</mark></p>
     <div v-for="x in foods">
         <img :src="x.imgUrl">
-        <p class="pName">{{ x.name }}</p>
+        <p class="pName">{{ x.name }} 
+        <img class="foodfav" src="/src/assets/img/foods/favourite.svg" v-show="x.isFavourte"></p>
     </div>
 </template>
 <script>
@@ -27,5 +28,8 @@ export default {
     }
     img {
         width: 100%;
+    }
+    .foodfav {
+        width: 25%;
     }
 </style>                  
