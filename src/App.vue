@@ -16,8 +16,8 @@
 
 <template>
   <h1>Food</h1>
-  <div @click="this.activeComp = 'food-about'" class="divBtn">About</div>
-  <div @click="this.activeComp = 'food-kinds'" class="divBtn">Kinds</div>
+  <div @click="this.activeComp='food-about'" class="divBtn">About</div>
+  <div @click="this.activeComp='anything'" class="divBtn">Kinds</div>
   <div id="divComp">
     <component :is="activeComp"></component>
   </div>
@@ -28,7 +28,7 @@
 export default {
   data() {
     return {
-      activeComp: 'food-kinds',
+      activeComp: 'anything',
       foods: [
         { name: 'Pizza', 
           imgUrl: 'src/assets/img/foods/pizza.svg' , 
