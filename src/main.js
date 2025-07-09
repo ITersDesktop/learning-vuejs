@@ -6,5 +6,5 @@ import FoodKinds from './components/FoodKinds.vue'
 
 const app = createApp(App)
 app.component('food-about', FoodAbout)
-app.component('anything', FoodKinds)
+app.component('food-kinds', FoodKinds)
 app.mount('#app')
