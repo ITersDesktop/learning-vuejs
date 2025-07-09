@@ -48,6 +48,7 @@ export default {
 
 <style>
   .food-fav {
+    float: right;
     width: 25%;
   }
   .food-img {
