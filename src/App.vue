@@ -30,14 +30,31 @@ export default {
     return {
       activeComp: 'food-kinds',
       foods: [
-        { name: 'Pizza', 
-          imgUrl: 'src/assets/img/foods/pizza.svg' , 
-          isFavourte: true
+        { 
+          name: 'Pizza', 
+          desc: 'Pizza is a popular Italian dish consisting of a flattened, usually round, bread base topped with various ingredients and baked.',
+          imgUrl: 'src/assets/img/foods/pizza.svg', 
         },
-        { name: 'Apple', imgUrl: 'src/assets/img/foods/apple.svg' },
-        { name: 'Cake', imgUrl: 'src/assets/img/foods/cake.svg' },
-        { name: 'Fish', imgUrl: 'src/assets/img/foods/fish.svg' },
-        { name: 'Rice', imgUrl: 'src/assets/img/foods/rice.svg' }
+        { 
+          name: 'Apple', 
+          desc: 'An apple is a round fruit with a firm, usually red or green, flesh and a seedy core, produced by a small tree of the rose family.',
+          imgUrl: 'src/assets/img/foods/apple.svg' 
+        },
+        { 
+          name: 'Cake', 
+          desc: 'A cake is a sweet baked good, often decorated and served as a dessert.',
+          imgUrl: 'src/assets/img/foods/cake.svg' 
+        },
+        { 
+          name: 'Fish', 
+          desc: 'Fish are aquatic, vertebrate animals characterized by fins, gills, and usually scales. ',
+          imgUrl: 'src/assets/img/foods/fish.svg' 
+        },
+        { 
+          name: 'Rice', 
+          desc: 'Rice is grown in four ecosystems, which are broadly defined based on water regimes.',
+          imgUrl: 'src/assets/img/foods/rice.svg' 
+        }
       ]
     }
   },
@@ -84,6 +101,5 @@ export default {
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
-  width: 400px;
 }
 </style>
